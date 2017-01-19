@@ -1,0 +1,4 @@
+﻿  AndroidBot_Main.c
+d:\programmer\portfolio\android-robot-modeling\opengl_androidbot\opengl_androidbot\androidbot_main.c(25): warning C4113: 'void (__cdecl *)()'은(는) 'void (__cdecl *)(void)'과(와) 매개 변수 목록이 다릅니다.
+  openGL_AndroidBot.vcxproj -> D:\Programmer\Portfolio\Android-Robot-Modeling\openGL_AndroidBot\Debug\openGL_AndroidBot.exe
+  openGL_AndroidBot.vcxproj -> D:\Programmer\Portfolio\Android-Robot-Modeling\openGL_AndroidBot\Debug\openGL_AndroidBot.pdb (Full PDB)
