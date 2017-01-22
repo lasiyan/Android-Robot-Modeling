@@ -43,7 +43,7 @@ glut32.lib
 opengl32.lib
 glaux.lib 를 입력
 
-3. 파일 싱행
+3. 파일 실행
 
 ## 실행 결과
 
