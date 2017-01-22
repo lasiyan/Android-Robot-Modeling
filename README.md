@@ -27,20 +27,20 @@ Activity에서는 로봇의 행동(달리기, 잽, 스케이팅, 로켓펀치, �
 
 ## 실행 과정
 
-1. https://drive.google.com/file/d/0B3wz4RsRRCj8WVZMMlJRckhxVTA/view
-위 주소로 이동해 openGL API download
- Windows Visual 2015를 기준으로 .h 헤더 파일은 
- C:\Program Files (x86)\Windows Kits\8.1\Include\um\gl 에 복사
- lib 파일은
- C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86 에 복사
- .dll 파일은 C:\Windows\System32 에 복사
- 64bit OS의 경우 C:\Windows\SysWOW64 에도 복사해준다
+1. https://drive.google.com/file/d/0B3wz4RsRRCj8WVZMMlJRckhxVTA/view 위 주소로 이동해 openGL API download
+
+* Windows Visual 2015를 기준으로 .h 헤더 파일은 
+* C:\Program Files (x86)\Windows Kits\8.1\Include\um\gl 에 복사
+* lib 파일은
+* C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86 에 복사
+* .dll 파일은 C:\Windows\System32 에 복사
+* 64bit OS의 경우 C:\Windows\SysWOW64 에도 복사해준다
 
 2. 프로젝트 속성 -> 링커 -> 입력 -> 추가종속 에
- glu32.lib
- glut32.lib
- opengl32.lib
- glaux.lib 를 입력
+glu32.lib
+glut32.lib
+opengl32.lib
+glaux.lib 를 입력
 
 3. 파일 실행
 
